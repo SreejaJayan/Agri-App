@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.batman.agri.MainActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/main_background" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/map_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:background="#ff0000"
+            android:padding="16dp"
+            android:text="SOIL MAP"
+            android:textAlignment="center"
+            android:textColor="#ffff00"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/crop_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:background="#ff0000"
+            android:padding="16dp"
+            android:text="CROPS"
+            android:textAlignment="center"
+            android:textColor="#ffff00"
+            android:textSize="18sp" />
+
+        <!--<TextView-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_margin="8dp"-->
+            <!--android:background="#ff0000"-->
+            <!--android:padding="16dp"-->
+            <!--android:text="Hello World!"-->
+            <!--android:textAlignment="center"-->
+            <!--android:textColor="#ffff00"-->
+            <!--android:textSize="18sp" />-->
+
+    </LinearLayout>
+
+</RelativeLayout>
